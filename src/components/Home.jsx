@@ -4,8 +4,9 @@ import { Col, Row } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import { HashLink as Link } from 'react-router-hash-link';
-import { faLinkedin, faSquareFacebook, faSquareInstagram, faSquareTwitter } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faSquareFacebook, faSquareInstagram, faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 
 
 function Home() {
@@ -19,8 +20,7 @@ var fName = "Ishan";
   var btnName = "Contact ME";
   return (
     <section id='home'>
-      <br/> <br/>
-    <div>
+    <div className='home'>
         <Container fluid className='con' >  
   
           <Row className='r1'>
@@ -31,7 +31,7 @@ var fName = "Ishan";
             </Col>
             
             <Col className='col1'>
-              <h1 className='hello'>Hello World,</h1>
+              <h1 className='hello' id="hello">Hello World,</h1>
               <br />
             <h1 className='name' id='name'>
             <p className='itxt' id='itxt'>{'< > ' + txt + ' </>' }</p>
@@ -63,8 +63,8 @@ var fName = "Ishan";
               
           {/* <Image fluid="true" id='optionalavatar' className='avatar' src="pic.png" roundedCircle /> */}
         </Col>
-          </Row>  
-        
+          </Row>
+            <div id="down" className='down-arrow'><FontAwesomeIcon icon={faAnglesDown} /></div>  
         </Container> 
   
       </div>
