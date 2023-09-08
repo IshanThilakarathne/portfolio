@@ -31,7 +31,7 @@ function Faqs() {
                   
                 </Accordion.Item>
                  <Accordion.Item eventKey="2">
-        <Accordion.Header className='header-faqs'>Educational background?</Accordion.Header>
+                  <Accordion.Header className='header-faqs'>Educational background?</Accordion.Header>
         <Accordion.Body className='body-faqs'>
           <ul>
                       <li>Currently following BIT degree at University Of Moratuwa</li>

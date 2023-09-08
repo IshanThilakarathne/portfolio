@@ -13,8 +13,14 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Faqs from './components/Faqs';
 import Footer from './components/Footer';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Ishan Thilakarathne"
+  }, []);
+
   return (
     <BrowserRouter>
     

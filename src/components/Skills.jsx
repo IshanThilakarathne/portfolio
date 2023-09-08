@@ -25,20 +25,20 @@ function Skills() {
             <center>
                 <Container>
                     <Row>
-                        <Col ><img src={html} className="logo" alt="html" id='logo' /> </Col>
-                        <Col  ><img src={javascript} className="logomain" alt="javascript" id="logomain"/></Col>
-                        <Col  ><img src={css} className="logo" alt="css"  id='logo' /></Col>
+                        <Col ><img src={html} className="logo-skill" alt="html" id='logo' /> </Col>
+                        <Col  ><img src={javascript} className="logomain-skill" alt="javascript" id="logomain"/></Col>
+                        <Col  ><img src={css} className="logo-skill" alt="css"  id='logo' /></Col>
                         </Row>
                         <br /> <br />
                     <Row>
-                        <Col><img src={flutter} className="logo" alt="flutter" /></Col>
-                        <Col><img src={reactLogo} className="logomain" alt="react" /></Col>
-                        <Col><img src={laraval} className="logo" alt="laravel" /></Col>
+                        <Col><img src={flutter} className="logo-skill" alt="flutter" /></Col>
+                        <Col><img src={reactLogo} className="logomain-skill" alt="react" /></Col>
+                        <Col><img src={laraval} className="logo-skill" alt="laravel" /></Col>
                         </Row>
                         <br /> <br />
                     <Row>
-                        <Col> <img src={tailwind} className="logo" alt="tailwind" /></Col>
-                        <Col><img src={bootstrap} className="logo" alt="bootstrap" /></Col>
+                        <Col> <img src={tailwind} className="logo-skill" alt="tailwind" /></Col>
+                        <Col><img src={bootstrap} className="logo-skill" alt="bootstrap" /></Col>
                         {/* <Col><img src="canva-1.svg" className="" alt="canva" /></Col> */}
                       </Row>
                     </Container>

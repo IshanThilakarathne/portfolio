@@ -16,7 +16,8 @@
 }
 
 .nav-icon:hover{
-  color: rgb(211, 211, 211);
+  color: rgb(172, 172, 172);
+  
 }
 
 /* home */
@@ -142,7 +143,7 @@
 }
 
 .about {
-  margin-top: 50px;
+
   text-align: center;
   font-weight: bold;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -166,13 +167,13 @@
   color: white;
 }
 
-.logo {
+.logo-skill {
   /* margin-top: 50px; */
   width: 70px;
   /* margin-bottom: 50px;   */
 }
 
-.logomain {
+.logomain-skill {
   /* margin-top: 50px; */
   width: 70px;
   /* margin-bottom: 50px; */
@@ -310,21 +311,22 @@ padding-bottom: 100px;
   padding-bottom: 100px;
 }
 
-/* conact */
+/* contact */
 .logo {
-  width: 100px;
-  /* margin-bottom: 20px; */
+  width: 90px;
+  margin-bottom: 20px;
 } 
 
 .logo:hover{
-  width: 102px;
+  width: 85px;
 }
 
 .logomain {
-  width: 100px;
+  width: 90px;
   /* margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px; */
+    margin-top: 20px;
 }
 
 .logomain:hover{
@@ -362,6 +364,7 @@ padding-bottom: 100px;
 .header-faqs {
   font-family: 'Poppins', sans-serif;
   color: #068FFF!important;
+  border-radius: 15px!important;
 }
 
 .body-faqs {
