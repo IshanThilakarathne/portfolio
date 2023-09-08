@@ -7,7 +7,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { faLinkedin, faSquareFacebook, faSquareInstagram, faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
-
+import meImg from "../images/me.svg";
 
 function Home() {
 
@@ -17,7 +17,6 @@ var fName = "Ishan";
 
   var txt = "I'm";
 
-  var btnName = "Contact ME";
   return (
     <section id='home'>
     <div className='home'>
@@ -27,7 +26,7 @@ var fName = "Ishan";
             
             <Col lg={6} md={12} className='col2'>
              
-              <Image fluid="true" id='optionalavatar' className='avatar' src="me.svg" />
+              <Image fluid="true" id='optionalavatar' className='avatar' src={meImg} />
             </Col>
             
             <Col className='col1'>
@@ -43,9 +42,10 @@ var fName = "Ishan";
               <a href='https://drive.google.com/file/d/1-0HH3UpMXFEJTdjrO0jlIbAbXPh5i7q3/view?usp=sharing'><Button className='btn-contact'>Download CV</Button> </a>
               
               <br /><br />
-
+            <Link to='#contact'>
               <Button className='btn-contact' >Contact ME
-              </Button>
+                </Button>
+                </Link>
 
               <br /> <br />
              
@@ -64,7 +64,12 @@ var fName = "Ishan";
           {/* <Image fluid="true" id='optionalavatar' className='avatar' src="pic.png" roundedCircle /> */}
         </Col>
           </Row>
-            <div id="down" className='down-arrow'><FontAwesomeIcon icon={faAnglesDown} /></div>  
+          
+          <div id="down" className='down-arrow'>
+            <Link to='#about'><FontAwesomeIcon icon={faAnglesDown} />
+            </Link>
+          </div> 
+          
         </Container> 
   
       </div>

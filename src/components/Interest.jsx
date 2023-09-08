@@ -1,6 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Container from 'react-bootstrap/Container';
+import webDev from "../images/web-dev.jpg";
+import mobileDev from "../images/mobile app dev main.jpg"
 
 import React from 'react'
 
@@ -17,7 +19,7 @@ function Interest() {
        <Container>
         <CardGroup xs={6} sm={6} md={6} lg={12}>
        <Card style={{ width: '18rem' }} className='crd'>
-      <Card.Img className='crd-img' variant="top" src="web-dev.jpg" />
+      <Card.Img className='crd-img' variant="top" src={webDev} />
       <Card.Title>Web App Development</Card.Title>
       <Card.Body>
         <Card.Text className='card-text'>
@@ -28,7 +30,7 @@ function Interest() {
     </Card> 
      &nbsp; &nbsp;
        <Card style={{ width: '18rem' }} className='crd'>
-      <Card.Img className='crd-img' variant="top" src="mobile app dev main.jpg" />
+      <Card.Img className='crd-img' variant="top" src={mobileDev} />
       <Card.Title>Mobile App Development</Card.Title>
       <Card.Body>
         <Card.Text className='card-text'>

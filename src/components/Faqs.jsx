@@ -49,7 +49,7 @@ function Faqs() {
         </Container>
         <br /> <br />
         <Link to='#home'>
-          <FontAwesomeIcon icon={faAnglesUp} className='angle'/>
+          <FontAwesomeIcon icon={faAnglesUp} className='up-arrow'/>
         </Link>
         
       </div>

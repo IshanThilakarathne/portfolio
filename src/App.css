@@ -91,7 +91,7 @@
 .down-arrow{
   /* margin-bottom: 20px; */
   text-align: center;
-  color: white;
+  color: #068FFF;
   position: relative;
   top: 0;
   margin-top: -60px;
@@ -227,15 +227,12 @@ padding-bottom: 100px;
 }
 
 .crd{
-  background: rgba(50,
-    38,
-    83,
-    1)!important;
+  background: rgba(168, 145, 233, 0.20)!important;
   color: white!important;
   border-radius: 35px!important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)!important;
-  backdrop-filter: blur(5px)!important;
-  -webkit-backdrop-filter: blur(5px)!important;
+  backdrop-filter: blur(1px)!important;
+  -webkit-backdrop-filter: blur(1px)!important;
  
 }
 .crd-img{
@@ -280,25 +277,19 @@ padding-bottom: 100px;
   font-family: 'Poppins', sans-serif;
 }
 
-.git-img {
+.git-img1 {
   width: 50px;
 }
 
-.git-button {
-  border: 0;
-  background-color: white;
-}
-
-git-img {
-  width: 50px;
+.git-img1:hover{
+  background-color: #ffffff00;
+    width: 55px;
+  
 }
 
 .card-main {
   width: 20rem;
-  background: rgba(50,
-        38,
-        83,
-        1) !important;
+  background: rgba(168, 145, 233, 0.20) !important;
     color: white !important;
     border-radius: 35px !important;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
@@ -310,6 +301,10 @@ git-img {
   width: 50px;
   margin-top: 50px;
 }
+.git-img2:hover{
+  background-color:#ffffff00;
+  width: 55px;
+}
 
 .projects{
   padding-bottom: 100px;
@@ -319,6 +314,10 @@ git-img {
 .logo {
   width: 100px;
   /* margin-bottom: 20px; */
+} 
+
+.logo:hover{
+  width: 102px;
 }
 
 .logomain {
@@ -326,6 +325,10 @@ git-img {
   /* margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px; */
+}
+
+.logomain:hover{
+  width: 102px;
 }
 .contact{
   padding-bottom: 100px;
@@ -364,10 +367,7 @@ git-img {
 .body-faqs {
   font-family: 'Poppins', sans-serif;
   color: white;
-  background: rgba(50,
-        38,
-        83,
-        1) !important;
+  background: rgba(3,0,28,1) !important;
     color: white !important;
    
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
@@ -375,8 +375,26 @@ git-img {
     -webkit-backdrop-filter: blur(5px) !important;
 }
 
-.angle {
-  text-align: right;
+@keyframes mover {
+  0% {
+    top: 10px;
+  }
+
+  100% {
+    bottom: 10px;
+  }
+}
+
+.up-arrow {
+  /* margin-bottom: 20px; */
+  text-align: center;
+  color: #068FFF;
+  position: relative;
+  top: 0;
+  margin-top: -60px;
+  animation: mover 0.5s infinite;
+  animation-direction: alternate-reverse;
+
 }
 
 /* footer */
@@ -385,7 +403,7 @@ git-img {
   background-color:#068FFF;
   height: 200px;
   padding-bottom: 100px;
-  border-radius: 50px;
+  border-radius: 50px 50px 0px 0px;
 
 }
 
@@ -397,7 +415,7 @@ git-img {
 }
 
 .icon-footer {
-  color: black;
+  color: white;
   margin-top: 60px;
   text-align: center;
 
