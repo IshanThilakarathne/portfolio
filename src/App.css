@@ -17,7 +17,7 @@
 
 .nav-icon:hover{
   color: rgb(172, 172, 172);
-  
+   
 }
 
 /* home */
@@ -138,7 +138,7 @@
 /* about */
 .about-div {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   padding-bottom: 50px;
 }
 
@@ -278,11 +278,9 @@ padding-bottom: 100px;
   font-family: 'Poppins', sans-serif;
 }
 
-.git-img1 {
-  width: 50px;
-}
 
-.git-img1:hover{
+
+.git-img:hover{
   background-color: #ffffff00;
     width: 55px;
   
@@ -296,15 +294,23 @@ padding-bottom: 100px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
     backdrop-filter: blur(5px) !important;
     -webkit-backdrop-filter: blur(5px) !important;
+    height: 480px!important;
+    align-self: flex-end !important;
+    margin-bottom: 20px;
+    
 }
 
+.git-img{
+  width: 50px;
+  margin-top: 8px; 
+}
 .git-img2 {
   width: 50px;
-  margin-top: 50px;
+  margin-bottom: -180px;
 }
-.git-img2:hover{
-  background-color:#ffffff00;
-  width: 55px;
+.git-img3 {
+  width: 50px;
+  margin-bottom: -86px;
 }
 
 .projects{
@@ -312,6 +318,10 @@ padding-bottom: 100px;
 }
 
 /* contact */
+
+#mail{
+  color: white;
+}
 .logo {
   width: 90px;
   margin-bottom: 20px;
@@ -404,10 +414,9 @@ padding-bottom: 100px;
 
 .foot {
   background-color:#068FFF;
-  height: 200px;
-  padding-bottom: 100px;
+  height: 230px;
+  padding-bottom: 80px;
   border-radius: 50px 50px 0px 0px;
-
 }
 
 .footer {
@@ -419,8 +428,10 @@ padding-bottom: 100px;
 
 .icon-footer {
   color: white;
-  margin-top: 60px;
+  margin-top: 40px;
   text-align: center;
+  border-radius: 15px;
+  
 
 }
 
