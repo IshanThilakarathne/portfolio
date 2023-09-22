@@ -11,12 +11,13 @@ import fiverr from "../images/fiverr_round icon_icon.svg";
 
 export default function Contact() {
 
+  
   const [isText, setText] = useState(false);
 
+
   const handleClick = event => {
-    setText(true);
+   setText(true)
   }
- 
 
   return (
     <section id='contact'>
@@ -43,7 +44,8 @@ export default function Contact() {
             <Row>
               <Col><a href='https://www.instagram.com/ishan_thilakarathne/'><img src={instagram} alt="instaButton" className='logo' id='side-logo' /></a></Col>
 
-              <Col><a onClick={handleClick}><img src={gmail} alt="gmailButton" className='logo' id='mian-logo'/></a></Col>
+              <Col>
+                <a onClick={handleClick}><img src={gmail} alt="gmailButton" className='logo' id='mian-logo' /></a></Col>
               
               <Col><a href='https://www.fiverr.com/ishanm376?public_mode=true'><img src={fiverr} alt="fiverrButton" className='logo' id='side-logo'/></a></Col>
             </Row>

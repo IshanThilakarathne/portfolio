@@ -11,6 +11,8 @@ import meImg from "../images/me.svg";
 
 function Home() {
 
+const link = "https://drive.google.com/file/d/1_ImFefg0OSnPUrMd9tZfmqVCBc1DOLSU/view?usp=sharing"
+
 var fName = "Ishan";
   var lName = "Thilakarathne";
   var myName = fName + " " + lName;
@@ -19,61 +21,39 @@ var fName = "Ishan";
 
   return (
     <section id='home'>
-    <div className='home'>
+      <div className='home'>
         <Container fluid className='con' >  
-  
           <Row className='r1'>
-            
-            <Col lg={6} md={12} className='col2'>
-             
+            <Col lg={6} md={12} className='col2'> 
               <Image fluid="true" id='optionalavatar' className='avatar' src={meImg} />
             </Col>
             
             <Col className='col1'>
-              <h1 className='hello' id="hello">Hello World,</h1>
+              <h1 className='hello' id="hello">Hello World!</h1>
               <br />
-            <h1 className='name' id='name'>
-            <p className='itxt' id='itxt'>{'< > ' + txt + ' </>' }</p>
-                {'< > ' + myName + ' </>' }
+              <h1 className='name' id='name'>
+              <p className='itxt' id='itxt'>{'< > ' + txt + ' </>' }</p>
+              {'< > ' + myName + ' </>' }
               </h1> 
               <br />
               <br />
-   
-              <a href='https://drive.google.com/file/d/1-0HH3UpMXFEJTdjrO0jlIbAbXPh5i7q3/view?usp=sharing'><Button className='btn-contact'>Download CV</Button> </a>
-              
+              <a href={link}><Button className='btn-contact'>Download CV</Button> </a>
               <br /><br />
-            <Link to='#contact'>
-              <Button className='btn-contact' >Contact ME
+              <Link to='#contact'>
+                <Button className='btn-contact' >Contact ME
                 </Button>
-                </Link>
-
+              </Link>
               <br /> <br />
-             
-              {/* <FontAwesomeIcon icon={faSquareFacebook} />
-              <br />
-              
-              <FontAwesomeIcon icon={faSquareInstagram} />
-              <br />
-              <FontAwesomeIcon icon={faSquareTwitter} />
-              <br />
-          
-              <FontAwesomeIcon icon={faLinkedin} />
-              <br /> */}
-          
-              
-          {/* <Image fluid="true" id='optionalavatar' className='avatar' src="pic.png" roundedCircle /> */}
-        </Col>
+            </Col>
           </Row>
           
           <div id="down" className='down-arrow'>
             <Link to='#about'><FontAwesomeIcon icon={faAnglesDown} />
             </Link>
           </div> 
-          
-        </Container> 
-  
-      </div>
-      </section>
+      </Container> 
+    </div>
+  </section>
   )
 }
 
