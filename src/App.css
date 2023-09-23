@@ -89,10 +89,12 @@
 100% {bottom: 10px;}
 }
 
+.down-arrow:hover {
+  animation-play-state: paused;
+}
 .down-arrow{
-  /* margin-bottom: 20px; */
   text-align: center;
-  color: #068FFF;
+  color: #ffffff;
   position: relative;
   top: 0;
   margin-top: -60px;
@@ -167,18 +169,21 @@
   color: white;
 }
 
-.logo-skill {
-  /* margin-top: 50px; */
+.skill-row-1 {
+  
   width: 70px;
-  /* margin-bottom: 50px;   */
+  height: 70px;
+    
+}
+.skill-row-2 {
+  width: 70px;
+  height: 70px;
+
 }
 
-.logomain-skill {
-  /* margin-top: 50px; */
+.skill-row-3 {
   width: 70px;
-  /* margin-bottom: 50px; */
-  /* margin-left: 100px; */
-  /* margin-right: 100px; */
+  height: 70px;
 }
 
 .p {
@@ -365,17 +370,6 @@ padding-bottom: 100px;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-/* #main-div{
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-@media (max-width:629px) {
-    #main-div {
-       padding-left: 50px;
-       padding-right: 50px;
-    }
-} */
 
 .faqs {
   margin-bottom: 40px;
@@ -410,10 +404,13 @@ padding-bottom: 100px;
   }
 }
 
+.up-arrow:hover{
+  animation-play-state: paused;
+}
 .up-arrow {
   /* margin-bottom: 20px; */
   text-align: center;
-  color: #068FFF;
+  color: #ffffff;
   position: relative;
   top: 0;
   margin-top: -60px;

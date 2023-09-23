@@ -10,8 +10,7 @@ import reactLogo from "../images/react-2.svg";
 import laraval from "../images/laravel-2.svg";
 import tailwind from "../images/tailwind-css-2.svg";
 import bootstrap from "../images/bootstrap-5-1.svg";
-import canva from "../images/canva-1.svg"
-
+import node from "../images/node-js.svg";
 
 function Skills() {
   return (
@@ -25,25 +24,25 @@ function Skills() {
             <center>
                 <Container>
                     <Row>
-                        <Col ><img src={html} className="logo-skill" alt="html" id='logo' /> </Col>
-                        <Col  ><img src={javascript} className="logomain-skill" alt="javascript" id="logomain"/></Col>
-                        <Col  ><img src={css} className="logo-skill" alt="css"  id='logo' /></Col>
+                        <Col ><img src={html} className="skill-row-1" alt="html" id='logo' /> </Col>
+                        <Col  ><img src={javascript} className="skill-row-1" alt="javascript" id="logomain"/></Col>
+                        <Col  ><img src={css} className="skill-row-1" alt="css"  id='logo' /></Col>
                         </Row>
                         <br /> <br />
                     <Row>
-                        <Col><img src={flutter} className="logo-skill" alt="flutter" /></Col>
-                        <Col><img src={reactLogo} className="logomain-skill" alt="react" /></Col>
-                        <Col><img src={laraval} className="logo-skill" alt="laravel" /></Col>
+                        <Col><img src={flutter} className="skill-row-2" alt="flutter" /></Col>
+                        <Col><img src={reactLogo} className="skill-row-2" alt="react" /></Col>
+                        <Col><img src={node} className="skill-row-2" alt="nodeJS" /></Col>
                         </Row>
                         <br /> <br />
                     <Row>
-                        <Col> <img src={tailwind} className="logo-skill" alt="tailwind" /></Col>
-                        <Col><img src={bootstrap} className="logo-skill" alt="bootstrap" /></Col>
+                        <Col> <img src={tailwind} className="skill-row-3" alt="tailwind" /></Col>
+                        <Col> <img src={laraval} className="skill-row-3" alt="laravel" /></Col>
+                        <Col><img src={bootstrap} className="skill-row-3" alt="bootstrap" /></Col>
                         {/* <Col><img src="canva-1.svg" className="" alt="canva" /></Col> */}
                       </Row>
                     </Container>
-                </center>
-                
+                </center>       
           </div>
       </section>
       
